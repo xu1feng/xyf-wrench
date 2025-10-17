@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>xyf-wrench-starter-dynamic-config-center</module>
+        <module>xyf-wrench-test</module>
     </modules>
 
     <properties>
