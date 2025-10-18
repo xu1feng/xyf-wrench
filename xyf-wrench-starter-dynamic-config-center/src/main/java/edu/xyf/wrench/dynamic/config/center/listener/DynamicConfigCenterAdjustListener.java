@@ -24,7 +24,12 @@ public class DynamicConfigCenterAdjustListener implements MessageListener<Attrib
 
     @Override
     public void onMessage(CharSequence charSequence, AttributeVO attributeVO) {
-        dynamicConfigCenterService.adjustAttributeValue(attributeVO);
+        try {
+            log.info("xyf-wrench dcc config attribute:{} value:{}", attributeVO.getAttribute(), attributeVO.getValue());
+            dynamicConfigCenterService.adjustAttributeValue(attributeVO);
+        } catch (Exception e) {
+            log.error("xyf-wrench dcc config attribute:{} value:{}", attributeVO.getAttribute(), attributeVO.getValue(), e);
+        }
     }
 
 }
