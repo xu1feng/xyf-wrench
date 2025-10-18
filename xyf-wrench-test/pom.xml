@@ -55,6 +55,11 @@
             <artifactId>xyf-wrench-starter-dynamic-config-center</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>edu.xyf.wrench</groupId>
+            <artifactId>xyf-wrench-starter-design-framework</artifactId>
+            <version>1.0</version>
+        </dependency>
 
     </dependencies>
 
