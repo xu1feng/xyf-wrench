@@ -13,6 +13,7 @@
         <module>xyf-wrench-test</module>
         <module>xyf-wrench-starter-design-framework</module>
         <module>xyf-wrench-bom</module>
+        <module>xyf-wrench-starter-rate-limiter</module>
     </modules>
 
     <properties>
