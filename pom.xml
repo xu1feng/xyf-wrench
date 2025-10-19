@@ -12,6 +12,7 @@
         <module>xyf-wrench-starter-dynamic-config-center</module>
         <module>xyf-wrench-test</module>
         <module>xyf-wrench-starter-design-framework</module>
+        <module>xyf-wrench-bom</module>
     </modules>
 
     <properties>

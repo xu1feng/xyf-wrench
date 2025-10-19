@@ -11,6 +11,41 @@
 
     <artifactId>xyf-wrench-starter-design-framework</artifactId>
 
+    <name>xyf-wrench-starter-design-framework</name>
+    <description>xyf wrench modules design framework</description>
+    <url>https://github.com/xu1feng/xyf-wrench</url>
+
+    <licenses>
+        <license>
+            <name>Apache License</name>
+            <url>https://opensource.org/license/apache-2-0/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!--<developers>
+        <developer>
+            <id>ossrh</id>
+            <name>xuyifeng</name>
+            <email>2465549609@qq.com</email>
+            <url>https://github.com/xu1feng</url>
+            <organization>xyf-wrench</organization>
+            <organizationUrl>https://github.com/xu1feng/xyf-wrench</organizationUrl>
+            <roles>
+                <role>Project Manager</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>Asia/Shanghai</timezone>
+        </developer>
+    </developers>-->
+
+    <scm>
+        <connection>scm:git:https://github.com/xu1feng/xyf-wrench.git</connection>
+        <developerConnection>scm:git:https://github.com/xu1feng/xyf-wrench.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/xu1feng/xyf-wrench</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
