@@ -65,6 +65,11 @@
             <artifactId>xyf-wrench-starter-rate-limiter</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>edu.xyf.wrench</groupId>
+            <artifactId>xyf-wrench-starter-task-job</artifactId>
+            <version>1.0</version>
+        </dependency>
 
     </dependencies>
 
